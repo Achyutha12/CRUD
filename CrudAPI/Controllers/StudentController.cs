@@ -15,12 +15,8 @@ namespace CrudAPI.Controllers
         //{
         //    return View();
         //}
-
         public static ArrayList StudentData = new ArrayList() { "Scott","Smith"};
-
-        
         [HttpGet]
-        [Route("GetAllStudents")]
         public ArrayList GetAllUsers()
         {
             return StudentData;
@@ -34,7 +30,6 @@ namespace CrudAPI.Controllers
         //}
 
         [HttpPost]
-        [Route("SaveNewStudent")]
         public ArrayList SaveNewStudent([FromQuery] string student)
         {
             StudentData.Add(student);
@@ -42,7 +37,6 @@ namespace CrudAPI.Controllers
         }
 
         [HttpPut]
-        [Route("UpdateStudent")]
         public ArrayList UpdateStudent(int id, [FromQuery] string student)
         {
             StudentData[id] = student;
@@ -50,8 +44,7 @@ namespace CrudAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteStudent")]
-
+        
         public ArrayList DeleteStudent(int id, [FromQuery] string student)
         {
             StudentData[id] = student;

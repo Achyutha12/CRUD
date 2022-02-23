@@ -26,3 +26,4 @@ C:\Impact\Impact1\CRUD\CrudAPI\obj\Debug\net5.0\CrudAPI.dll
 C:\Impact\Impact1\CRUD\CrudAPI\obj\Debug\net5.0\ref\CrudAPI.dll
 C:\Impact\Impact1\CRUD\CrudAPI\obj\Debug\net5.0\CrudAPI.pdb
 C:\Impact\Impact1\CRUD\CrudAPI\obj\Debug\net5.0\CrudAPI.genruntimeconfig.cache
+C:\Impact\Impact1\CRUD\CrudAPI\obj\Debug\net5.0\CrudAPI.csproj.AssemblyReference.cache
